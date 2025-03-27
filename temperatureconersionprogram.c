@@ -13,14 +13,17 @@ int main(){
     if (unit == 'C'){
         printf("\nEnter the temp in Celsius: ");
         scanf("%f", &temp);
-        temp = temp * 9 / 5 + 18;
-        printf("\nThe F is :%.2f F", temp);
+        temp = temp * 9 / 5 + 32;
+        printf("\nThe temperature in Farenheit is :%.1f ", temp);
     }
-    if (unit == 'F'){
-        printf("\nEnter the temp in F: ");
+    else if (unit == 'F'){
+        printf("\nEnter the temp in Farenheit: ");
         scanf("%f", &temp);
         temp = (temp -32) / (9 / 5);
-        printf("\nThe temperature is: %.2f Celsius", temp);
+        printf("\nThe temperature in Celsius is: %.1f ", temp);
+    }
+    else{
+        printf("\n %c is not a valid unit of measurement", unit);
     }
     return 0;
 }
