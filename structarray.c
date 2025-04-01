@@ -19,7 +19,7 @@ int main()
 
     for (int i = 0; i < sizeof(students)/sizeof(students[0]);i++)
     {   
-        printf("Name:%s Gpa:%f\n", students[i].name, students[i].gpa);
+        printf("Name:%s Gpa:%.2f\n", students[i].name, students[i].gpa);
     }
     
     return 0;
