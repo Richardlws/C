@@ -2,14 +2,15 @@
 
 int main()
 {
-    /*
-    FILE *pF = fopen("test.txt","a");
+    
+    FILE *pF = fopen("C:\\Users\\LENOVO\\Desktop\\test.txt","a");
 
     fprintf(pF,"\nSpongebob Squarepants");
 
     fclose(pF);
     return 0;
-    */
+
+    /*
 
     if (remove("test.txt") == 0)
     {
@@ -20,4 +21,5 @@ int main()
         printf("That file was NOT deleted!");
 
     }
+    */
 }
