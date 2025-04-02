@@ -3,7 +3,7 @@
 int main()
 {
     
-    FILE *pF = fopen("C:\\Users\\LENOVO\\Desktop\\test.txt","a");
+    FILE *pF = fopen("test.txt","a");
 
     fprintf(pF,"\nSpongebob Squarepants");
 
